@@ -5,6 +5,7 @@ Minor project for 2022 Advanced web programming at Facultad de Informática - UN
 
 ## Objective
 - Learn AJAX and jQuery
+- (Personal) Work with git branches
 
 ## Devs
 - Lucia Landaeta [@Lucia-Landaeta](https://github.com/Lucia-Landaeta)
