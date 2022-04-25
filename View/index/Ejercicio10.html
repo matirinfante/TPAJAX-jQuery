@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ejercicio 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+          crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img src="../img/catplay.png" height="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Ejercicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="Ejercicio1.html">Ejercicio 1</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio2.html">Ejercicio 2</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio3.html">Ejercicio 3</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio4.html">Ejercicio 4</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio5.html">Ejercicio 5</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio6.html">Ejercicio 6</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio7.html">Ejercicio 7</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio8.html">Ejercicio 8</a></li>
+                              <li><a class="dropdown-item" href="Ejercicio9.html">Ejercicio 9</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ejercicio11.html">Showcase</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Dentro del div de la clase container implementar:
+    1. 1 div Header
+    2. 4 div (agregar contenido o color para identificarlos)
+    3. 1 div con el contenido Tablet y un color que lo distinga
+    4. 4 div (agregar contenido o color para identificarlos, y diferenciarlos del grupo anterior de divs)
+    5. 1 div con el contenido Desktop y un color.
+    6. 2 div (agregar contenido o color para identificarlos, y diferenciarlos del grupo anterior de divs)
+    7. 1 div Footer.">Consigna</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div id="header" class="border border-2 p-2 text-center" style="background-color: green;">
+    <h2>Header</h2>
+</div>
+<div class="container text-center">
+    <!-- NUMBER DIV -->
+    <div class="row clearfix">
+        <div id="1" class="border border-2 offset-lg-3 col-sm-6 col-md-3 pt-5 pb-5" style="background-color: lightblue;">
+            <h3>1</h3>
+        </div>
+        <div id="2" class="border border-2 col-lg-3 col-sm-6 col-md-3 pt-5 pb-5" style="background-color: lightblue;">
+            <h3>2</h3>
+        </div>
+        <!-- justify-content-between -->
+        <div id="invisible-2" class="d-lg-block d-none col-lg-3"></div>
+        <div id="3" class="border border-2 col-lg-3 col-sm-6 col-md-3 pt-5 pb-5" style="background-color: lightblue;">
+            <h3>3</h3>
+        </div>
+        <div id="4" class="border border-2 col-lg-3 offset-lg-6 col-sm-6 col-md-3 pt-5 pb-5" style="background-color: lightblue;">
+            <h3>4</h3>
+        </div>
+    </div>
+    <!-- END NUMBER DIV -->
+
+    <!-- TABLET -->
+    <div class="row">
+        <div id="tablet" class="border border-2 col p-3 d-none d-md-block d-lg-none d-xl-none"
+             style="background-color: lightskyblue;">
+            <h3>Tablet</h3>
+        </div>
+    </div>
+    <!-- END TABLET -->
+
+    <!-- CHAR DIV -->
+    <div class="row">
+        <div id="a" class="border border-2 order-lg-4 col-sm-6 col-md-3 col-lg-3 pt-5 pb-5" style="background-color: gray;">
+            <h3>a</h3>
+        </div>
+        <div id="b" class="border border-2 order-lg-3 col-sm-6 col-md-3 col-lg-3 pt-5 pb-5" style="background-color: gray;">
+            <h3>b</h3>
+        </div>
+        <div id="c" class="border border-2 order-lg-2 col-sm-6 col-md-3 col-lg-3 pt-5 pb-5" style="background-color: gray;">
+            <h3>c</h3>
+        </div>
+        <div id="d" class="border border-2 order-lg-1 col-sm-6 col-md-3 col-lg-3 pt-5 pb-5" style="background-color: gray;">
+            <h3>d</h3>
+        </div>
+    </div>
+    <!-- END CHAR DIV -->
+
+    <!-- DESKTOP -->
+    <div class="row">
+        <div id="desktop" class="border border-2 col p-3 d-lg-block d-none" style="background-color: lightskyblue;">
+            <h3>Desktop</h3>
+        </div>
+    </div>
+    <!-- END DESKTOP -->
+
+    <!-- MOBILE -->
+    <div class="row">
+        <div id="mobile" class="border border-2 col p-3 d-sm-block d-lg-none d-xl-none d-md-none"
+             style="background-color: lightskyblue;">
+            <h3>Mobile</h3>
+        </div>
+    </div>
+    <!-- END MOBILE -->
+
+    <!-- EMOTES -->
+    <div class="row justify-content-center">
+        <div id="triste"
+             class="border border-2 order-lg-1 order-md-2 col-md-6 col-md-pull-6 col-lg-3 pt-5 pb-5 d-md-block d-xl-block d-none"
+             style="background-color: orange;">
+            <h3>:(</h3>
+        </div>
+        <div id="feliz" class="border border-2 order-lg-2 order-md-1 col-sm col-md-6 col-md-push-6 col-lg-3 pt-5 pb-5"
+             style="background-color: orange;">
+            <h3>:D</h3>
+        </div>
+    </div>
+    <!-- END EMOTES -->
+
+
+</div>
+<div id="footer" class="border border-2 p-2 d-lg-block d-md-block d-xl-block d-none text-center" style="background-color: greenyellow;">
+    <h2>Footer</h2>
+</div>
+<footer class="mt-auto">
+    <div class="container-fluid bg-dark">
+        <div class="row text-center">
+            <p class="text-white">copyright</p>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
