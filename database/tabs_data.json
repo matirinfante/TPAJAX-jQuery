@@ -1,0 +1,113 @@
+[
+  {
+    "id": 0,
+    "nombre": "Anime",
+    "textoContenido": "Variedad de trajes con tematica anime",
+    "cards": [
+      {
+        "id": 0,
+        "titulo": "Zenitsu ACATsuma",
+        "src": "../img/Cosplay A2.jpg"
+      },
+      {
+        "id": 1,
+        "titulo": "MICHkasa Ackerman",
+        "src": "../img/Cosplay A3.jpg"
+      },
+      {
+        "id": 2,
+        "titulo": "Neko D Luffy",
+        "src": "../img/Cosplay A4.jpg"
+      },
+      {
+        "id": 3,
+        "titulo": "Erase-purr Head",
+        "src": "../img/Cosplay A5.jpg"
+      },
+      {
+        "id": 4,
+        "titulo": "Miss Maid Miu",
+        "src": "../img/Cosplay A7.jpg"
+      },
+      {
+        "id": 5,
+        "titulo": "BillSphynx",
+        "src": "../img/Cosplay A8.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "nombre": "Peliculas",
+    "textoContenido": "Trajes de personajes de peliculas",
+    "cards": [
+      {
+        "id": 0,
+        "titulo": "Oogie Boogie Cat",
+        "src": "../img/Cosplay P1.jpg"
+      },
+      {
+        "id": 1,
+        "titulo": "Hell-Kitty",
+        "src": "../img/Cosplay P2.jpg"
+      },
+      {
+        "id": 2,
+        "titulo": "Beetlejuice",
+        "src": "../img/Cosplay P3.jpg"
+      },
+      {
+        "id": 3,
+        "titulo": "Steven Miau-Strange",
+        "src": "../img/Cosplay P4.jpg"
+      },
+      {
+        "id": 4,
+        "titulo": "Prrregrin Tuk (Pippin)",
+        "src": "../img/Cosplay P5.jpg"
+      },
+      {
+        "id": 5,
+        "titulo": "Catpool",
+        "src": "../img/Cosplay P6.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Series",
+    "textoContenido": "Trajes inspirados en personajes de series",
+    "cards": [
+      {
+        "id": 0,
+        "titulo": "Catt Murdock",
+        "src": "../img/Cosplay S1.jpg"
+      },
+      {
+        "id": 1,
+        "titulo": "Geralt of PrrRivia",
+        "src": "../img/Cosplay S2.jpg"
+      },
+      {
+        "id": 2,
+        "titulo": "Kitty-Rick Sanchez",
+        "src": "../img/Cosplay S3.jpg"
+      },
+      {
+        "id": 3,
+        "titulo": "Catstantine",
+        "src": "../img/Cosplay S4.jpg"
+      },
+      {
+        "id": 4,
+        "titulo": "Harley Mich",
+        "src": "../img/Cosplay S5.jpg"
+      },
+      {
+        "id": 5,
+        "titulo": "Michi-Spock",
+        "src": "../img/Cosplay S6.jpg"
+      }
+    ]
+  }
+]
