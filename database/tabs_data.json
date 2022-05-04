@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "nombre": "Anime",
+    "nombre": "anime",
     "textoContenido": "Variedad de trajes con tematica anime",
     "cards": [
       {
@@ -38,7 +38,7 @@
   },
   {
     "id": 1,
-    "nombre": "Peliculas",
+    "nombre": "peliculas",
     "textoContenido": "Trajes de personajes de peliculas",
     "cards": [
       {
@@ -75,7 +75,7 @@
   },
   {
     "id": 3,
-    "nombre": "Series",
+    "nombre": "series",
     "textoContenido": "Trajes inspirados en personajes de series",
     "cards": [
       {
