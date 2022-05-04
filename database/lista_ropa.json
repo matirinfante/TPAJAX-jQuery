@@ -1,62 +1,28 @@
 [
   {
-    "id": "1",
-    "nombre": "S",
-    "padre": "0"
+    "material": "algodón",
+    "colores": [
+      "rojo",
+      "azul",
+      "original"
+    ],
+    "precio": "$2800"
   },
   {
-    "id": "2",
-    "nombre": "M",
-    "padre": "0"
+    "material": "polyester",
+    "colores": [
+      "naranja",
+      "amarillo",
+      "original"
+    ],
+    "precio": "$3500"
   },
   {
-    "id": "3",
-    "nombre": "L",
-    "padre": "0"
-  },
-  {
-    "id": "4",
-    "nombre": "XL",
-    "padre": "0"
-  },
-  {
-    "id": "5",
-    "nombre": "$50",
-    "padre": "1"
-  },
-  {
-    "id": "6",
-    "nombre": "$100",
-    "padre": "1"
-  },
-  {
-    "id": "7",
-    "nombre": "$25",
-    "padre": "2"
-  },
-  {
-    "id": "8",
-    "nombre": "$60",
-    "padre": "2"
-  },
-  {
-    "id": "9",
-    "nombre": "$185",
-    "padre": "3"
-  },
-  {
-    "id": "10",
-    "nombre": "$200",
-    "padre": "3"
-  },
-  {
-    "id": "11",
-    "nombre": "$96",
-    "padre": "4"
-  },
-  {
-    "id": "12",
-    "nombre": "$1000",
-    "padre": "4"
+    "material": "seda",
+    "colores": [
+      "blanco",
+      "original"
+    ],
+    "precio": "$10000"
   }
 ]
