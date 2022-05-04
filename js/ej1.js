@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $.getJSON("../../../database/lista_ropa.json", function (data) {
+    $.getJSON("../../database/lista_ropa.json", function (data) {
         let tag
         $.each(data, function (key, value) {
             tag += `<option id="${key}" class="material" value=${value.material}> ${value.material} </option>`
@@ -11,7 +11,7 @@ $(document).ready(function () {
 })
 
 function cargarColores(material) {
-    $.getJSON("../../../database/lista_ropa.json", function (data) {
+    $.getJSON("../../database/lista_ropa.json", function (data) {
         let tag
         colores = data[material].colores
         $.each(colores, function (key, value) {
