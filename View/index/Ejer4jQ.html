@@ -70,17 +70,19 @@ En cada tab debe haber contenido relacionado al tema que elegiste para tu págin
         </div>
     </div>
 </nav>
-<div class="display-6 m-2">Contacto</div>
+<div class="display-6 m-2 text-center">Contacto</div>
 
 <!-- Content -->
-<div class="container">
+<div class="container mt-3">
     <div class="card">
         <div class="card-body">
+            <!-- TODO: registrar -->
             <form>
                 <div>
-                    <label>Username</label>
-                    <input name="username" class="form-control">
+                    <input class="form-control" type="text" id="username" name="username" placeholder="Enter Username"/>
+                    <div id="validacion"></div>
                 </div>
+
                 <div>
                     <label>Password</label>
                     <input name="password" class="form-control">
@@ -96,6 +98,9 @@ En cada tab debe haber contenido relacionado al tema que elegiste para tu págin
                 <div>
                     <label>Detalles</label>
                     <input class="form-control">
+                </div>
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary w-100">Registrarse</button>
                 </div>
             </form>
         </div>
@@ -116,7 +121,7 @@ En cada tab debe haber contenido relacionado al tema que elegiste para tu págin
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="../../js/ej2.js"></script>
+<script src="../../js/ej4.js"></script>
 
 </body>
 </html>

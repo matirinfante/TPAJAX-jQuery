@@ -1,11 +1,11 @@
 <?php
 include "config.php";
-
+$response = 0;
 if(isset($_POST['username'])){
    $username = mysqli_real_escape_string($con,$_POST['username']);
-   $response = false;
 
-   $query = "select count(*) as cntUser from usuarios where Usuario='".$username."'";
+
+   $query = "select count(*) as cntUser from usuarios where usuario='".$username."'";
 
    $result = mysqli_query($con,$query);
    if(mysqli_num_rows($result)){
@@ -14,9 +14,9 @@ if(isset($_POST['username'])){
       $count = $row['cntUser'];
 
       if($count > 0){
-      $response = true;
+      $response = 1;
       }
    }
-   json_serialize($response);
+    echo $response;
    die;
 }
