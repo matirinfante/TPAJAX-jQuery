@@ -1,0 +1,123 @@
+[
+    {
+      "id": 0,
+      "tipo": "Anime",
+      "texto": "Variedad de trajes con tematica anime",
+      "cards": [
+        {
+          "id": 0,
+          "titulo": "Zenitsu ACATsuma",
+          "img": "../img/Cosplay A2.jpg"
+        },
+        {
+          "id": 1,
+          "titulo": "MICHkasa Ackerman",
+          "img": "../img/Cosplay A3.jpg"
+        },
+        {
+          "id": 2,
+          "titulo": "Neko D Luffy",
+          "img": "../img/Cosplay A4.jpg"
+        },
+        {
+          "id": 3,
+          "titulo": "Erase-purr Head",
+          "img": "../img/Cosplay A5.jpg"
+        },
+        {
+          "id": 4,
+          "titulo": "Miss Maid Miu",
+          "img": "../img/Cosplay A7.jpg"
+        },
+        {
+          "id": 5,
+          "titulo": "BillSphynx",
+          "img": "../img/Cosplay A8.jpg"
+        },
+        {
+          "id": 6,
+          "titulo": "Zenitsu ACATsuma",
+          "img": "../img/Cosplay A2.jpg"
+        },
+        {
+          "id": 7,
+          "titulo": "Zenitsu ACATsuma",
+          "img": "../img/Cosplay A2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tipo": "Peliculas",
+      "texto": "Trajes de personajes de peliculas",
+      "cards": [
+        {
+          "id": 0,
+          "titulo": "Oogie Boogie Cat",
+          "img": "../img/Cosplay P1.jpg"
+        },
+        {
+          "id": 1,
+          "titulo": "Hell-Kitty",
+          "img": "../img/Cosplay P2.jpg"
+        },
+        {
+          "id": 2,
+          "titulo": "Beetlejuice",
+          "img": "../img/Cosplay P3.jpg"
+        },
+        {
+          "id": 3,
+          "titulo": "Steven Miau-Strange",
+          "img": "../img/Cosplay P4.jpg"
+        },
+        {
+          "id": 4,
+          "titulo": "Prrregrin Tuk (Pippin)",
+          "img": "../img/Cosplay P5.jpg"
+        },
+        {
+          "id": 5,
+          "titulo": "Catpool",
+          "img": "../img/Cosplay P6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tipo": "Series",
+      "texto": "Trajes inspirados en personajes de series",
+      "cards": [
+        {
+          "id": 0,
+          "titulo": "Catt Murdock",
+          "img": "../img/Cosplay S1.jpg"
+        },
+        {
+          "id": 1,
+          "titulo": "Geralt of PrrRivia",
+          "img": "../img/Cosplay S2.jpg"
+        },
+        {
+          "id": 2,
+          "titulo": "Kitty-Rick Sanchez",
+          "img": "../img/Cosplay S3.jpg"
+        },
+        {
+          "id": 3,
+          "titulo": "Catstantine",
+          "img": "../img/Cosplay S4.jpg"
+        },
+        {
+          "id": 4,
+          "titulo": "Harley Mich",
+          "img": "../img/Cosplay S5.jpg"
+        },
+        {
+          "id": 5,
+          "titulo": "Michi-Spock",
+          "img": "../img/Cosplay S6.jpg"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,55 @@
+/* Estilo Ejercicio 2 */
+.tab-content .cont {
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: -3px 3px 10px silver;
+}
+
+.tab-content .text {
+    margin: 15px;
+}
+.tab-content .img-fluid {
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Estilos Ejercicio 3 */
+#ej3 .nav-link {
+    color: black;
+}
+
+#ej3 .nav-link.active>.img-thumbnail {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#ej3 .nav-link>.img-thumbnail:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+#ej3 .nav-pills .nav-link.active,
+#ej3 .nav-pills .show>.nav-link {
+    background-color: orange;
+    font-weight: bold;
+}
+
+/* Estilos Ejercicio 4 */
+#formEj4 {
+    background-color: antiquewhite;
+}
+
+#formEj4 img {
+    width: 180px;
+}
+
+#formEj4 h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilos EJ6 */
+#list li {
+    list-style: none;
+}
