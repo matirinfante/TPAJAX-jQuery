@@ -1,0 +1,18 @@
+[
+  {
+    "nombrePais": "Argentina",
+    "provincias": [
+      "NEUQUEN",
+      "RIO NEGRO",
+      "CATAMARCA"
+    ]
+  },
+  {
+    "nombrePais": "Chile",
+    "provincias": [
+      "COQUIMBO",
+      "LOS LAGOS",
+      "BIO BIO"
+    ]
+  }
+]
