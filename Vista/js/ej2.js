@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $.getJSON("../../../database/tabs_data.json", function (data) {
+    $.getJSON("../../Modelo/tabs_data.json", function (data) {
         let tabData = ''
         $.each(data, function (key, value) {
             if (key === 0) {

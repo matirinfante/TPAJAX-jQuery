@@ -22,6 +22,12 @@ $(document).ready(function () {
         }
     });
 
-    //TODO: validar todo el form
+    $('#formPersona').on('submit', function (e) {
+        e.preventDefault();
+        //TODO: validar todo el form
+        var username = $('#username').val();
+        console.log(username)
+    })
+
 });
 

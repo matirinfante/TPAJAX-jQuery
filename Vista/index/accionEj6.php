@@ -6,10 +6,10 @@ include_once('../../utiles/funciones.php');
 $data = data_submitted();
 $abmE = new AbmEstado();
 
-$arrList = $abmE->buscar(['condicion' => 'LIKE "' . $data['descripcion'].'%"']);
+$arrList = $abmE->buscar(['condicion' => 'LIKE "' . $data['descripcion'] . '%" LIMIT 10']);
 $html = " ";
 
 foreach ($arrList as $item) {
     $html .= " <li> " . $item->getDescripcion() . "</li>";
 }
- echo $html;
+echo $html;
