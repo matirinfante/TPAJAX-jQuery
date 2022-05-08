@@ -2,7 +2,7 @@
 $title = "Ej4";
 include_once("../estructura/header.php");
 ?>
-<div class="container-fluid mt-3" id="formEj4">
+<div class="container-fluid" id="formEj4">
     <div class="row">
         <div class="col-* text-center p-3 ">
             <img src="../img/catplaydark.png" class="" >
@@ -10,14 +10,13 @@ include_once("../estructura/header.php");
     </div>
     <h4 class="text-center m-3" >Formulario</h4>
 
-    <div class="d-flex justify-content-center mb-5">
+    <div class="d-flex justify-content-center ">
         <form id="the-form" name="the-form" method="POST" action="accionEj4.php" >
             <div class="form-group row mt-2">
                 <label for="nombre" class="col-3 col-form-label">Nombre:</label>
                 <div class="col-9">
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
-                    <div class="text text-danger d-none" id="userInv">El usuario ya existe</div>
-                    <div class="text text-danger d-none" id="userVal">Usuario valido</div>
+                    <div class="validation"></div>
                 </div>
                 
             </div>
@@ -55,5 +54,5 @@ include_once("../estructura/header.php");
 
 
 </div>
-<!-- <script src="../js/verifUser.js"></script> -->
+<script src="../js/functionEj4.js"></script>
 <?php include_once("../estructura/footer.php"); ?>

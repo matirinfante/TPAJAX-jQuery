@@ -1,3 +1,6 @@
+html body{
+    height: 100vh;
+}
 /* Estilo Ejercicio 2 */
 .tab-content .cont {
     border: 1px solid silver;
@@ -38,6 +41,7 @@
 
 /* Estilos Ejercicio 4 */
 #formEj4 {
+    flex: 1;
     background-color: antiquewhite;
 }
 
