@@ -11,8 +11,7 @@ if ($abmC->alta($data)) {
     $response = 200;
 }
 
-print_r("hola");
-
+echo json_encode($response);
 
 
 
