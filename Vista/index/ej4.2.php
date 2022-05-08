@@ -10,7 +10,7 @@ include_once("../estructura/header.php");
     <div class="card">
         <div class="card-body">
             <!-- TODO: registrar -->
-            <form id="formPersona" name="formPersona" novalidate>
+            <form id="formPersona" name="formPersona" method="post" action="actionUserRegister.php" novalidate>
                 <div class="form-floating mb-3">
                     <input class="form-control" id="username" name="username"
                            placeholder="Nombre de usuario" required>
@@ -36,7 +36,7 @@ include_once("../estructura/header.php");
                     <div class="invalid-feedback">Ingrese un apellido válido</div>
                 </div>
                 <div class="d-grid">
-                    <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+                    <button id="btnEnviar" class="btn btn-primary btn-lg" type="submit">Enviar</button>
                 </div>
             </form>
         </div>

@@ -106,7 +106,7 @@ class Usuario
     {
         $resp = false;
         $base = new BaseDatos();
-        $sql = "SELECT * FROM usuario WHERE username = " . $this->getUsername();
+        $sql = "SELECT * FROM usuarios WHERE username = " . $this->getUsername();
         if ($base->Iniciar()) {
             $res = $base->Ejecutar($sql);
             if ($res > -1) {
@@ -126,7 +126,7 @@ class Usuario
     {
         $resp = false;
         $base = new BaseDatos();
-        $sql = "INSERT INTO usuario(username, password, nombre, apellido) VALUES('{$this->getUsername()}','{$this->getPassword()}','{$this->getNombre()}','{$this->getApellido()}');";
+        $sql = "INSERT INTO usuarios(Usuario, Clave, Nombre, Apellido) VALUES('" . $this->getUsername() . "','" . $this->getPassword() . "','" . $this->getNombre() . "','" . $this->getApellido() . "');";
         if ($base->Iniciar()) {
             if ($elid = $base->Ejecutar($sql)) {
                 $resp = true;
@@ -139,7 +139,7 @@ class Usuario
     {
         $arreglo = array();
         $base = new BaseDatos();
-        $sql = "SELECT * FROM usuario";
+        $sql = "SELECT * FROM usuarios";
         if ($parametro != "") {
             $sql .= 'WHERE ' . $parametro;
         }

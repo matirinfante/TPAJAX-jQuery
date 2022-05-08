@@ -8,11 +8,9 @@ class AbmUsuario
     public function alta($param)
     {
         $resp = false;
-        $param["username"] = null;
+        //$param["username"] = null;
         $objCont = $this->cargarObjeto($param);
-
         if ($objCont != null and $objCont->insertar()) {
-
             $resp = true;
         }
         return $resp;
@@ -26,9 +24,9 @@ class AbmUsuario
     public function cargarObjeto($param)
     {
         $obj = null;
-        if (array_key_exists('idContacto', $param) && array_key_exists('nombre', $param) && array_key_exists('empresa', $param) && array_key_exists('telefono', $param) && array_key_exists('mail', $param) && array_key_exists('comentario', $param)) {
-            $obj = new Contacto();
-            $obj->setear($param['idContacto'], $param['nombre'], $param['empresa'], $param['telefono'], $param['mail'], $param['comentario']);
+        if (array_key_exists('username', $param) && array_key_exists('password', $param) && array_key_exists('nombre', $param) && array_key_exists('apellido', $param)) {
+            $obj = new Usuario($param['username'], $param['password'], $param['nombre'], $param['apellido']);
+            //$obj->setear($param['username'], $param['password'], $param['nombre'], $param['apellido']);
         }
         return $obj;
     }
@@ -41,9 +39,9 @@ class AbmUsuario
     private function cargarObjetoConClave($param)
     {
         $obj = null;
-        if (isset($param['idContacto'])) {
-            $obj = new Contacto();
-            $obj->setear($param["idContacto"], null, null, null, null, null);
+        if (isset($param['username'])) {
+            $obj = new Usuario();
+            $obj->setear($param["username"], null, null, null);
         }
         return $obj;
     }
@@ -58,7 +56,7 @@ class AbmUsuario
     private function seteadosCamposClaves($param)
     {
         $resp = false;
-        if (isset($param['idContacto']))
+        if (isset($param['username']))
             $resp = true;
         return $resp;
     }

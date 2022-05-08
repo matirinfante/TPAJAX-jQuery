@@ -22,6 +22,5 @@ include_once("../estructura/header.php");
             </div>
         </div>
     </div>
-    <script src="../js/pagination.js"></script>
     <script src="../js/ej5.js"></script>
 <?php include_once("../estructura/footer.php"); ?>
