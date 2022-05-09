@@ -98,3 +98,12 @@ html body{
 #list li {
     list-style: none;
 }
+
+#anterior{
+    position:fixed;
+    top: 568px;
+}
+#siguiente{
+    position: relative;
+    left: 100px;
+}
