@@ -3,23 +3,19 @@ $(document).ready(function () {
         var val = $(this).text();
         var imagen = $("#imagenPrincipal");
         var actualNavlink = $(this);
-
+        var itemActual = actualNavlink.attr('id');
 
         $.getJSON('../../Modelo/datosEj3.json', function (data) {
-                var i = 0;
-                var exist = false;
-                var html = "";
-                var htmlTabla = "";
-                while (!exist && i < data.length) {
-                    if (data[i]['name'] == val) {
-                        html += "<p class='text-decoration-underline fw-bold'>" + val + "</p>";
-                        html += `<p>${data[i]['text']}</p>`;
-                        exist = true;
+            var html = "";
+            var htmlTabla = "";
+            var item = data[itemActual - 1];
 
-                        //Carga tabla
-                        datosTabla = data[i]['table'];
-                        console.log(datosTabla)
-                        htmlTabla += `<!-- Tabla -->
+            html += "<p class='text-decoration-underline fw-bold'>" + val + "</p>";
+            html += `<p>${item['text']}</p>`;
+
+            //Carga tabla
+            datosTabla = item['table'];
+            htmlTabla += `<!-- Tabla -->
                         <table class="table table-striped mt-2">
                             <tr>
                                 <td class="table-info">Material:</td>
@@ -36,20 +32,18 @@ $(document).ready(function () {
                             </tr>
                         </table>`
 
-                        //Se cambia img
-                        src = data[i]['src'];
-                        imagen.attr("src", src);
-                    }
-                    i++;
-                }
-                $(".nav-link").removeClass("active");
-                actualNavlink.addClass("active");
-                $('#modal-principal').html(html);
-                $('#modal-tabla').html(htmlTabla)
-                $('#infModal').modal('show');
-            }
+            //Se cambia img
+            src = item['src'];
+            imagen.attr("src", src);
+
+            $(".nav-link").removeClass("active");
+            actualNavlink.addClass("active");
+            $('#modal-principal').html(html);
+            $('#modal-tabla').html(htmlTabla)
+            $('#infModal').modal('show');
+        }
         )
-        ;
+            ;
     });
 
     //Cerrar modal
