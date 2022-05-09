@@ -2,6 +2,7 @@
 $title = "Ej6";
 include_once("../estructura/header.php");
 ?>
+
 <div class="container mt-4">
     <div class="container w-25" id="entrada">
         <label for="estado" class="col-3 col-form-label">Estado:</label>

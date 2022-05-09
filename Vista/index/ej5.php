@@ -16,7 +16,7 @@ include_once("../estructura/header.php");
     <div class="row align-items-center">
         <div class="col-md-8 offset-md-2">
             <div class="table-responsive">
-                <table class="table table-striped table-hover border-warning">
+                <table class="table table-striped border-warning">
                     <thead>
                         <tr>
                             <th scope="col">Producto</th>
