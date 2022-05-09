@@ -12,7 +12,7 @@ $(document).ready(function () {
                 var htmlTabla = "";
                 while (!exist && i < data.length) {
                     if (data[i]['name'] == val) {
-                        html += "<p class='text-decoration-underline'>" + val + "</p>";
+                        html += "<p class='text-decoration-underline fw-bold'>" + val + "</p>";
                         html += `<p>${data[i]['text']}</p>`;
                         exist = true;
 

@@ -1,25 +1,27 @@
-<?php 
-$title="Index";
+<?php
+$title = "Index";
 include_once("../estructura/header.php");
 ?>
-<div class="container">
-    <div class=" mt-5 text-center rounded-1" style="background-image: url('../img/j.jpg');">
-        <div class="row">
-            <div class="col rounded-1"><img src="../img/f1.jpg" class="img-fluid border border-grey" alt=""></div>
-            <div class="col-md-5 p-lg-3 mx-auto my-5 mb-0">
+<div class="container-fluid" id="container_index" style="background-image: url('../img/fondo2.jpg'); background-position:100%;">
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="container_center">
+        <div class="row align-items-center">
+            <div class="col rounded-1 "><img src="../img/jquery.png" class="img-fluid " alt=""></div>
+            <div class="col-md-5 ms-4 me-4 ">
                 <br>
-                <h1 class="display-3 fw-normal" style="font-family:Georgia, 'Times New Roman', Times, serif; color:white">RANDOM</h1>
-                <div class="row ms-5">
-                  
-                </div>
-                
+                <h1 class="text display-3 fw-normal pb-2">
+                    TP n°2
+                </h1>
+                <h2 class="text display-3 fw-normal">
+                    Programación Web Avanzada
+                </h2>
+                <h3 class="text display-6 fw-normal pt-3">Grupo Rojo</h3>
+                <h3 class="text display-6 fw-normal">Equipo 6</h3>
+
             </div>
-            <div class="col rounded-1">
-                <div class="col"><img src="../img/f2.jpg" class="img-fluid border border-grey" alt="">
-                </div>
-            </div>
+            <div class="col rounded-1"> <img src="../img/AJAX.png" class="img-fluid " alt=""> </div>
         </div>
     </div>
 </div>
 
-<?php include_once("../estructura/footer.php"); ?>
+<?php include_once("../estructura/footerIndex.php"); ?>

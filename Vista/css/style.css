@@ -1,6 +1,30 @@
 html body{
     height: 100vh;
 }
+/* index */
+#container_index{
+    flex: 1;
+    background-size: contain;
+}
+#container_center{
+    box-shadow: 0px 0px 30px 0px #333 inset;
+}
+#container_index .text{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:'Source Code Pro';
+    text-shadow: 2px 2px 4px #5a5858;
+}
+
+/* Estilo Ejercicio 1 */
+#containerEj1{
+    flex: 1;
+    background-color: antiquewhite
+}
+
+#contColor, #contPrecio{
+    display: none;
+}
+
 /* Estilo Ejercicio 2 */
 .tab-content .cont {
     border: 1px solid silver;
@@ -38,22 +62,39 @@ html body{
     background-color: orange;
     font-weight: bold;
 }
+#infModal .modal-title{
+    font-weight:600;
+}
 
+.text-title{
+    font-weight:600;
+}
 /* Estilos Ejercicio 4 */
-#formEj4 {
+#containerEj4{
     flex: 1;
     background-color: antiquewhite;
 }
-
-#formEj4 img {
-    width: 180px;
+.card{
+    background-color: antiquewhite;
+    border: none;
 }
-
-#formEj4 h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#salida{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px;
+    text-align: left;
 }
-
-/* Estilos EJ6 */
+/* Estilo Ejercicio 5 */
+/* #containerEj5{
+    flex: 1;
+    background-color: antiquewhite;
+}
+.table-responsive{
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+} */
+/* Estilos Ejercicio 6 */
 #list li {
     list-style: none;
 }

@@ -2,8 +2,11 @@
 $title = "Ej2";
 include_once("../estructura/header.php");
 ?>
+<div class="button mt-2 ms-2">
+        <button type="button" class="btn_consig btn btn-outline-warning" value="2"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="">Consigna</button> 
+    </div>
     <div class="container">
-        <div class="display-6 m-2">Cosplay</div>
+        <div class="text-title display-6 m-2">Cosplay</div>
         <div class="container border border-2 rounded-3 mt-2 p-2">
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -36,4 +39,5 @@ include_once("../estructura/header.php");
 
     </div>
     <script src="../js/functionEj2.js"></script>
+    <script src="../js/functionConsignas.js"></script>
 <?php include_once("../estructura/footer.php"); ?>

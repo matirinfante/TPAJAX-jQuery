@@ -1,23 +1,37 @@
 $(document).ready(function () {
-    // escuchar si existe cambio en el select
-    $('#provincia').on('change', function () {
-        // recupero el valor del option seleccionado
-        var selected = $(this).val();
-        // recupero el json
-        $.getJSON('../../Modelo/datos.json', function (data) {
-            var ciudad = $("#ciudad");
-            
-            if (selected == -1) { // si no se selecciono provincia
-                ciudad.empty();
-                ciudad.append("<option>" + 'Seleccione provincia' + "</option>");
-            } else { 
-                ciudad.empty();
-                var province=data[selected];
-                $.each(province.ciudades, function (key, element) {
-                    ciudad.append("<option>" + element + "</option>");
-                });
-            }
-        });
-    });
-    $('#provincia').trigger('change');
-});
+
+    $.getJSON("../../Modelo/lista_ropa.json", function (data) {
+        let tag
+        $.each(data, function (key, value) {
+            tag += `<option id="${key}" class="material" value=${value.material}> ${value.material} </option>`
+        })
+        $('#material').append(tag)
+    })
+
+})
+
+function cargarColores(material) {
+    $.getJSON("../../Modelo/lista_ropa.json", function (data) {
+        let tag
+        colores = data[material].colores
+        $.each(colores, function (key, value) {
+            tag += `<option id="${value}" class="color" value=${value}> ${value} </option>`
+        })
+        $('#color').append(tag)
+        $('#precio').empty()
+        $('#precio').append(`${data[material].precio}`)
+    })
+
+}
+
+$('#material').on('change', function (e) {
+    var materialSelected = $('select option').filter(':selected').attr("id");
+    $('#color').empty()
+    $('#contColor').show();
+    $('#contPrecio').show();
+    cargarColores(materialSelected)
+    if(materialSelected==null){
+        $('#contColor').hide();
+        $('#contPrecio').hide();
+    }
+})

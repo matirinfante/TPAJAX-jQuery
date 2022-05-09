@@ -1,28 +1,28 @@
 [
   {
-    "material": "algodón",
+    "material": "Algodón",
     "colores": [
-      "rojo",
-      "azul",
-      "original"
+      "Rojo",
+      "Azul",
+      "Original"
     ],
     "precio": "$2800"
   },
   {
-    "material": "polyester",
+    "material": "Polyester",
     "colores": [
-      "naranja",
-      "amarillo",
-      "original"
+      "Naranja",
+      "Amarillo",
+      "Original"
     ],
     "precio": "$3500"
   },
   {
-    "material": "seda",
+    "material": "Seda",
     "colores": [
-      "blanco",
-      "original"
+      "Blanco",
+      "Original"
     ],
-    "precio": "$10000"
+    "precio": "$1000"
   }
 ]
