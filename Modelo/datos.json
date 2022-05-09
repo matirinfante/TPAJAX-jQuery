@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "provincia": "Neuquen",
+        "ciudades": [
+            "Neuquen",
+            "Zapala",
+            "Alumine",
+            "Plaza Huincul"
+        ]
+    },
+    {
+        "id":"2",
+        "provincia": "Rio Negro",
+        "ciudades": [
+            "Gral.Roca",
+            "Cipolletti",
+            "Allen",
+            "Fernandez Oro"
+        ]
+    },
+    {
+        "id":"3",
+        "provincia": "Chubut",
+        "ciudades": [
+            "Rawson",
+            "Esquel",
+            "Comodoro Rivadavia",
+            "Trelew"
+        ]
+    }
+]

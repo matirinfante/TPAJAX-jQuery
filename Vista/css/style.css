@@ -1,0 +1,100 @@
+html body{
+    height: 100vh;
+}
+/* index */
+#container_index{
+    flex: 1;
+    background-size: contain;
+}
+#container_center{
+    box-shadow: 0px 0px 30px 0px #333 inset;
+}
+#container_index .text{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:'Source Code Pro';
+    text-shadow: 2px 2px 4px #5a5858;
+}
+
+/* Estilo Ejercicio 1 */
+#containerEj1{
+    flex: 1;
+    background-color: antiquewhite
+}
+
+#contColor, #contPrecio{
+    display: none;
+}
+
+/* Estilo Ejercicio 2 */
+.tab-content .cont {
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: -3px 3px 10px silver;
+}
+
+.tab-content .text {
+    margin: 15px;
+}
+.tab-content .img-fluid {
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Estilos Ejercicio 3 */
+#ej3 .nav-link {
+    color: black;
+}
+
+#ej3 .nav-link.active>.img-thumbnail {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#ej3 .nav-link>.img-thumbnail:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+#ej3 .nav-pills .nav-link.active,
+#ej3 .nav-pills .show>.nav-link {
+    background-color: orange;
+    font-weight: bold;
+}
+#infModal .modal-title{
+    font-weight:600;
+}
+
+.text-title{
+    font-weight:600;
+}
+/* Estilos Ejercicio 4 */
+#containerEj4{
+    flex: 1;
+    background-color: antiquewhite;
+}
+.card{
+    background-color: antiquewhite;
+    border: none;
+}
+#salida{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px;
+    text-align: left;
+}
+/* Estilo Ejercicio 5 */
+/* #containerEj5{
+    flex: 1;
+    background-color: antiquewhite;
+}
+.table-responsive{
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+} */
+/* Estilos Ejercicio 6 */
+#list li {
+    list-style: none;
+}

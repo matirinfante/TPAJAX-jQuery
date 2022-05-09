@@ -1,0 +1,28 @@
+[
+  {
+    "material": "Algodón",
+    "colores": [
+      "Rojo",
+      "Azul",
+      "Original"
+    ],
+    "precio": "$2800"
+  },
+  {
+    "material": "Polyester",
+    "colores": [
+      "Naranja",
+      "Amarillo",
+      "Original"
+    ],
+    "precio": "$3500"
+  },
+  {
+    "material": "Seda",
+    "colores": [
+      "Blanco",
+      "Original"
+    ],
+    "precio": "$1000"
+  }
+]
