@@ -15,7 +15,7 @@ if (count($arrProd) > 0) {
 
     if ($data['limite'] > 0) {
         $limit = $data['limite'] - 5;
-        $html .= "<div class='pb-2'><button class='btn btn-primary anterior fw-bold mb-3' onclick='cargarTabla(" . $limit . ")'> Anterior </button></div>";
+        $html .= "<div class=''><button id='anterior' class='btn btn-primary anterior fw-bold mb-3' onclick='cargarTabla(" . $limit . ")'> Anterior </button></div>";
     } else {
         $html .= "<span class='anterior'> </span>";
     }
@@ -24,7 +24,7 @@ if (count($arrProd) > 0) {
     }
     if ($data['limite'] < $total - 5) {
         $limit = $data['limite'] + 5;
-        $html .= "<div class='pt-2'><button class='btn btn-primary siguiente fw-bold' onclick='cargarTabla(" . $limit . ")'> Siguiente </button></div>";
+        $html .= "<div class='pt-2'><button id='siguiente' class='btn btn-primary siguiente fw-bold' onclick='cargarTabla(" . $limit . ")'> Siguiente </button></div>";
     } else {
         $html .= "<span class='siguiente'> </span>";
     }

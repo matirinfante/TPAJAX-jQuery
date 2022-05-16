@@ -74,40 +74,40 @@ include_once("../estructura/header.php");
                         <!-- lista -->
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
-                                <a id="lista1" class="nav-link active" type="button" role="tab">Autumn Miau</a>
+                                <a id="1" class="nav-link active" type="button" role="tab">Autumn Miau</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista2" class="nav-link">Super Miau</a>
+                                <a id="2" class="nav-link">Super Miau</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista3" class="nav-link">CalabaMichi</a>
+                                <a id="3" class="nav-link">CalabaMichi</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista4" class="nav-link">PrrNfluencer</a>
+                                <a id="4" class="nav-link">PrrNfluencer</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista5" class="nav-link">NekoDeku</a>
+                                <a id="5" class="nav-link">NekoDeku</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista6" class="nav-link">Capitán Milaneso</a>
+                                <a id="6" class="nav-link">Capitán Milaneso</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista7" class="nav-link">BotiCat</a>
+                                <a id="7" class="nav-link">BotiCat</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista8" class="nav-link">ACatSuki</a>
+                                <a id="8" class="nav-link">ACatSuki</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista9" class="nav-link">La flotación</a>
+                                <a id="9" class="nav-link">La flotación</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista10" class="nav-link">Hamburgueso</a>
+                                <a id="10" class="nav-link">Hamburgueso</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista11" class="nav-link">CatOru Gojo</a>
+                                <a id="11" class="nav-link">CatOru Gojo</a>
                             </li>
                             <li class="nav-item">
-                                <a id="lista12" class="nav-link">Miaurry Christmas</a>
+                                <a id="12" class="nav-link">Miaurry Christmas</a>
                             </li>
                         </ul>
                     </div>
